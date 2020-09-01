@@ -1,4 +1,4 @@
-FROM gradle
+FROM gradle:5.3.1
 
 # prepare ubuntu for TexturePacker
 RUN apt-get update && \
